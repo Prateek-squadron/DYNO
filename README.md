@@ -7,7 +7,7 @@ It's built entirely with **HTML5 + CSS3**, no frameworks, just clean markup and 
 
 ## 🚀 Live Demo
 
-🔗 [View the Website](https://your-live-link.com) *(Replace this with your actual site URL)*
+🔗 https://prateek-squadron.github.io/DYNO/
 
 ---
 
