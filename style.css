@@ -1,0 +1,42 @@
+*{
+    background-color: beige;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  display: flex;           /* Makes li horizontal */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;               /* Adds space between links */
+}
+
+.navbar li a {
+
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar li a:hover {
+  color: #f39c12;          /* Yellowish hover effect */
+}
+
+
+.logo{
+ font-family: Orbitron;
+ font-weight: 500;
+ font-size: 20px;
+}
