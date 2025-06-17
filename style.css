@@ -45,7 +45,7 @@ a:hover {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 4px 6px #00f7ff
 }
 
 .logo {
@@ -74,10 +74,12 @@ a:hover {
 .hero {
   text-align: center;
   padding: 6rem 2rem;
-  /* background: linear-gradient(to right, #0f0f0f, #1a1a1a); */
-  /* background-image: url('https://i.ibb.co/sHRk43K/smoky-bg.jpg'); Optional background */
   background-size: cover;
   background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 .hero h1 {
@@ -92,8 +94,11 @@ a:hover {
 }
 
 .start-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* custom: change based on your design */
+  padding: 0.5rem 1rem; /* slightly reduced */
   background: #ff004f;
   color: #fff;
   border-radius: 30px;
@@ -101,13 +106,22 @@ a:hover {
   letter-spacing: 1px;
   box-shadow: 0 0 10px #ff004f;
   transition: all 0.3s ease;
+  text-align: center;
+  gap: 8px; /* add this if you're using icon + text */
 }
 
+
 .start-button:hover {
-  background: #fff;
+  background: #11cfcf;
   color: #ff004f;
-  box-shadow: 0 0 20px #ff004f;
+  box-shadow: 0 0 20px #f15a8a;
 }
+
+.nos-icon{
+  height: 60px;
+  width: 80px;
+}
+
 
 /* ===== SECTIONS ===== */
 section {
